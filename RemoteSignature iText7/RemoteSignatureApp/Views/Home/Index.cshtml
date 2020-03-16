@@ -1,0 +1,150 @@
+﻿@model RemoteSignatureApp.Models.FileModel
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<br />
+@if (Session["User"] != null)
+{
+
+    <div id="fileUploadDiv">
+        @using (Html.BeginForm("Authorize", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="row">
+                @Html.LabelFor(model => model.file, htmlAttributes: new { @class = "control-label " })
+                <div>
+                    @Html.TextBoxFor(model => model.file, "", new { @type = "file" })
+                    @Html.ValidationMessageFor(model => model.file, "", new { @class = "text-danger" })
+                </div>
+                <br/>
+
+                <div >
+                    <input type="submit" value="Initializare semnare document" class="btn btn-primary" />
+                </div>
+            </div>
+
+
+
+        </div>
+        }
+    </div>
+
+    <div id="credentialListDiv">
+
+
+
+    </div>
+    <div id="enterCredentialsDiv" style="display:none">
+        @Html.Label("Credentiale semnare")
+        @using (Html.BeginForm("SignFile", "Home", FormMethod.Post))
+        {
+            <div class="form-group">
+                @Html.Label("OTP", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    <input id="otp" name="otp" placeholder="OTP" />
+
+                </div>
+                @Html.Label("Parola semnare", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    <input id="password" name="password" type="password" placeholder="Parola semnare" />
+
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Semneaza" class="btn btn-primary" />
+                </div>
+            </div>
+        }
+
+
+
+    </div>
+
+    <div id="fileDetailsDiv" class="form-group">
+
+    </div>
+    <div id="reloadTransactionsDiv" style="display:none">
+
+        @Html.ActionLink("Semnare document nou", "ReloadTransactions", "Home")
+    </div>
+
+
+}
+<script>
+    $(document).ready(function () {
+        console.log('@ViewBag.State');
+        if ('@ViewBag.Message'.length > 0) {
+            alert(@ViewBag.Message);
+        }
+        $.ajax({
+            url: '@Url.Action("FileDetails", "Signing")',
+            type: 'GET',
+            cache: false,
+        }).done(function (result) {
+            $('#filedetails').html(result);
+        });
+
+          if ('@ViewBag.State' == "SelectFile") {
+             document.getElementById("fileUploadDiv").style.display = "inline";
+                document.getElementById("credentialListDiv").style.display = "none";
+              document.getElementById("enterCredentialsDiv").style.display = "none";
+           document.getElementById("reloadTransactionsDiv").style.display = "none";
+
+        }
+
+        if ('@ViewBag.State' == "ListCredentials") {
+            document.getElementById("fileUploadDiv").style.display = "none";
+              document.getElementById("enterCredentialsDiv").style.display = "none";
+            document.getElementById("reloadTransactionsDiv").style.display = "none";
+            document.getElementById("credentialListDiv").style.display = "inline";
+
+            $.ajax({
+                url: '@Url.Action("ListCredentials", "Home")',
+                type: 'GET',
+                cache: false,
+            }).done(function (result) {
+                $('#credentialListDiv').html(result);
+            });
+
+
+        }
+        if ('@ViewBag.State' == "EnterCredentials") {
+            document.getElementById("enterCredentialsDiv").style.display = "inline";
+            document.getElementById("credentialListDiv").style.display = "none";
+            document.getElementById("fileUploadDiv").style.display = "none";
+             document.getElementById("reloadTransactionsDiv").style.display = "none";
+        }
+
+
+        if ('@ViewBag.State' == "SignedDocument") {
+            document.getElementById("reloadTransactionsDiv").style.display = "inline";
+                document.getElementById("fileDetailsDiv").style.display = "inline";
+              document.getElementById("credentialListDiv").style.display = "none";
+            document.getElementById("fileUploadDiv").style.display = "none";
+            document.getElementById("enterCredentialsDiv").style.display = "none";
+           
+
+            $.ajax({
+                url: '@Url.Action("DocumentInfo", "Home")',
+                type: 'GET',
+                cache: false,
+            }).done(function (result) {
+                $('#fileDetailsDiv').html(result);
+            });
+
+
+        }
+    });
+    function SendOTP(cred) {
+
+        var url = '@Url.Action("SendOTP", "Home")?cred='+cred;
+
+    window.location.href = url;
+    }
+
+
+</script>

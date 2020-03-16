@@ -1,0 +1,637 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CDA9091D-7091-4BB8-B8D4-71D241F20A94}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RemoteSignatureApp</RootNamespace>
+    <AssemblyName>RemoteSignatureApp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44329</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.1.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <HintPath>..\packages\Portable.BouncyCastle.1.8.1.3\lib\net40\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.3.4.1\lib\net40\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.Core, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.Core.3.4.1\lib\net40\Common.Logging.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.barcodes, Version=7.1.9.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.9\lib\net40\itext.barcodes.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.forms, Version=7.1.9.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.9\lib\net40\itext.forms.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.io, Version=7.1.9.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.9\lib\net40\itext.io.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.kernel, Version=7.1.9.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.9\lib\net40\itext.kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.layout, Version=7.1.9.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.9\lib\net40\itext.layout.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.licensekey, Version=3.0.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.licensekey.3.0.5\lib\net40\itext.licensekey.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.pdfa, Version=7.1.9.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.9\lib\net40\itext.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.sign, Version=7.1.9.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.9\lib\net40\itext.sign.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.styledxmlparser, Version=7.1.9.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.9\lib\net40\itext.styledxmlparser.dll</HintPath>
+    </Reference>
+    <Reference Include="itext.svg, Version=7.1.9.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.7.1.9\lib\net40\itext.svg.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="RestSharp, Version=106.0.0.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.106.10.1\lib\net452\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.ASiC, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.ASiC.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.ASiC.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.ASiC.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.Cloud, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.Cloud.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.Cloud.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.Cloud.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.DAVClient, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.DAVClient.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.DAVClient.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.DAVClient.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.DAVCommon, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.DAVCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.DAVCommon.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.DAVCommon.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.DAVIISServer, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.DAVIISServer.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.DAVServer, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.DAVServer.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.DAVServer.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.DAVServer.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.DC, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.DC.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.DC.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.DC.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.DCPKI, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.DCPKI.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.DCPKI.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.DCPKI.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.FTPS, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.FTPS.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.FTPS.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.FTPS.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.FTPSServer, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.FTPSServer.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.FTPSServer.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.FTPSServer.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.HTTP, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.HTTP.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.HTTP.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.HTTP.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.HTTPCommon, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.HTTPCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.HTTPCommon.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.HTTPCommon.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.HTTPServer, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.HTTPServer.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.HTTPServer.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.HTTPServer.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.LDAP, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.LDAP.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.LDAP.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.LDAP.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.Mail, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.Mail.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.Mail.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.Mail.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.MIME, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.MIME.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.MIME.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.MIME.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.Office, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.Office.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.Office.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.Office.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PDF, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.PDF.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PDF.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.PDF.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PGP, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.PGP.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PGP.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.PGP.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PGPLDAP, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.PGPLDAP.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PGPLDAP.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.PGPLDAP.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PGPMIME, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.PGPMIME.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PGPMIME.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.PGPMIME.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PGPSSH, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.PGPSSH.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PGPSSH.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.PGPSSH.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PGPTLS, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.PGPTLS.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PGPTLS.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.PGPTLS.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PKI, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.PKI.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PKI.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.PKI.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PKIPDF, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.PKIPDF.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PKIPDF.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.PKIPDF.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PKISMIME, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.PKISMIME.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PKISSH, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.PKISSH.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.PKISSH.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.PKISSH.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SAMLCommon, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.SAMLCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SAMLCommon.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.SAMLCommon.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SAMLIDP, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.SAMLIDP.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SAMLIDP.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.SAMLIDP.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SAMLSP, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.SAMLSP.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SAMLSP.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.SAMLSP.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SFTP, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.SFTP.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SFTP.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.SFTP.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SFTPCommon, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.SFTPCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SFTPCommon.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.SFTPCommon.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SFTPServer, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.SFTPServer.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SFTPServer.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.SFTPServer.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SMIME, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.SMIME.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SMIME.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.SMIME.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SOAPClient, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.SOAPClient.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SOAPClient.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.SOAPClient.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SolFS, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.SolFS.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SSHClient, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.SSHClient.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SSHClient.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.SSHClient.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SSHCommon, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.SSHCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SSHCommon.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.SSHCommon.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SSHServer, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.SSHServer.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SSHServer.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.SSHServer.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SSLClient, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.SSLClient.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SSLClient.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.SSLClient.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SSLCommon, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.SSLCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SSLCommon.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.SSLCommon.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SSLServer, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.SSLServer.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.SSLServer.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.SSLServer.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.XML, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.XML.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.XML.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.XML.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.XMLSecurity, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.XMLSecurity.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.XMLSecurity.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.XMLSecurity.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.ZIP, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.ZIP.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureBlackbox.ZIP.Async, Version=16.0.327.0, Culture=neutral, PublicKeyToken=903f968ced2ace33, processorArchitecture=MSIL">
+      <HintPath>..\packages\SecureBlackbox.16.0.327\lib\net46\SecureBlackbox.ZIP.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.7\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.7\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.7\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.2\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.2\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.2\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.4.0.0\lib\net451\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.4.0.0\lib\net451\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.4.0.0\lib\net451\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.4.0.0\lib\net451\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.4.0.0\lib\net451\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.4.0.0\lib\net451\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter">
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.4.0.0\lib\net451\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.4.0.0\lib\net451\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.4.0.0\lib\net451\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\IdentityConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Classes\BlackBoxSignature.cs" />
+    <Compile Include="Classes\CSC_API_Client.cs" />
+    <Compile Include="Classes\CSC_API_Utils.cs" />
+    <Compile Include="Classes\JSONDataContracts.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\CSC_Models.cs" />
+    <Compile Include="Models\FileModels.cs" />
+    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\aspnet-RemoteSignatureApp-20191209082958.mdf" />
+    <Content Include="App_Data\aspnet-RemoteSignatureApp-20191209082958_log.ldf">
+      <DependentUpon>aspnet-RemoteSignatureApp-20191209082958.mdf</DependentUpon>
+    </Content>
+    <Content Include="changes.txt" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="LicenseKey.txt" />
+    <Content Include="readme.txt" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.3.1.js" />
+    <Content Include="Scripts\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\script.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
+    <Content Include="Views\Account\ConfirmEmail.cshtml" />
+    <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
+    <Content Include="Views\Account\ExternalLoginFailure.cshtml" />
+    <Content Include="Views\Account\ForgotPassword.cshtml" />
+    <Content Include="Views\Account\ForgotPasswordConfirmation.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Account\Register.cshtml" />
+    <Content Include="Views\Account\ResetPassword.cshtml" />
+    <Content Include="Views\Account\ResetPasswordConfirmation.cshtml" />
+    <Content Include="Views\Account\SendCode.cshtml" />
+    <Content Include="Views\Account\VerifyCode.cshtml" />
+    <Content Include="Views\Manage\AddPhoneNumber.cshtml" />
+    <Content Include="Views\Manage\ChangePassword.cshtml" />
+    <Content Include="Views\Manage\Index.cshtml" />
+    <Content Include="Views\Manage\ManageLogins.cshtml" />
+    <Content Include="Views\Manage\SetPassword.cshtml" />
+    <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
+    <Content Include="Views\Shared\Lockout.cshtml" />
+    <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Signing\Index.cshtml" />
+    <Content Include="Views\Signing\FileDetails.cshtml" />
+    <Content Include="Views\Home\CredentialPartial.cshtml" />
+    <Content Include="Views\Home\FileDetailsPartial.cshtml" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50324</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44300/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

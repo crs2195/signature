@@ -1,0 +1,34 @@
+﻿@model IEnumerable<RemoteSignatureApp.Models.FileDetailsModel>
+
+@Html.Label("Detalii document: ")
+<br />
+<table class="table table-hover table-responsive table-bordered" style="width:80%;">
+    <thead>
+        <tr>
+            <th scope="col"> @Html.DisplayNameFor(model => model.Signature)</th>
+            <th scope="col"> @Html.DisplayNameFor(model => model.Integrity)</th>
+            <th scope="col"> @Html.DisplayNameFor(model => model.SignerName)</th>
+            <th scope="col"> @Html.DisplayNameFor(model => model.SignatureDate)</th>
+
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>  @Html.DisplayFor(modelItem => item.Signature)</td>
+                <td>  @Html.DisplayFor(modelItem => item.Integrity)</td>
+                <td>  @Html.DisplayFor(modelItem => item.SignerName)</td>
+                <td>  @Html.DisplayFor(modelItem => item.SignatureDate)</td>
+
+            </tr>
+
+        }
+
+    </tbody>
+</table>
+<br />
+
+

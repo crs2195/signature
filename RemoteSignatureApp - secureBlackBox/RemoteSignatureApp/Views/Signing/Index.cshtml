@@ -1,0 +1,64 @@
+﻿@model RemoteSignatureApp.Models.FileModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script src="~/Scripts/script.js"></script>
+
+
+@if (Session["User"] != null)
+{
+    @Html.ActionLink("Initializare proces semnare", "Authorize", "Signing")
+
+    using (Html.BeginForm("FileUpload", "Signing", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                @Html.LabelFor(model => model.file, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(model => model.file, "", new { @type = "file" })
+                    @Html.ValidationMessageFor(model => model.file, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Upload" class="btn btn-primary" />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10 text-success">
+                    @ViewBag.FileStatus
+                    @Html.ActionLink("Selectare credential", "Sign", "Home")
+                    @ViewBag.CredentialList
+
+                </div>
+            </div>
+
+            <div id="filedetails" class="form-group">
+                <div class="col-md-8">
+                    Detalii despre fisier --semnatura etc--cu iText
+
+                </div>
+            </div>
+        </div>
+    }
+}
+<script>
+$(document).ready(function () {
+
+    $.ajax({
+        url: '@Url.Action("FileDetails", "Signing")',
+        type: 'GET',
+        cache: false,
+        }).done(function (result) {
+        $('#filedetails').html(result);
+        });
+
+        });
+
+</script>

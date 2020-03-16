@@ -1,0 +1,426 @@
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\RemoteSignatureApp.dll.config
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\RemoteSignatureApp.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\RemoteSignatureApp.pdb
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\csc.exe
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\csc.exe.config
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\csc.rsp
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\csi.exe
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\csi.exe.config
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\csi.rsp
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\Microsoft.Managed.Core.targets
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.AppContext.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Collections.Immutable.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Console.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.IO.Compression.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.IO.FileSystem.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.IO.Pipes.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Reflection.Metadata.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Security.AccessControl.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Security.Claims.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Security.Principal.Windows.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.ValueTuple.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Xml.XmlDocument.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Xml.XPath.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\vbc.exe
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\vbc.exe.config
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\vbc.rsp
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\VBCSCompiler.exe
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\VBCSCompiler.exe.config
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Antlr3.Runtime.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\EntityFramework.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\EntityFramework.SqlServer.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.Core.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Security.Cookies.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Security.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Security.Facebook.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Security.Google.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Security.OAuth.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Security.Twitter.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Web.Infrastructure.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Newtonsoft.Json.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Owin.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Net.Http.Formatting.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.Helpers.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.Http.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.Http.WebHost.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.Mvc.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.Optimization.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.Razor.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.WebPages.Deployment.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.WebPages.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.WebPages.Razor.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\WebGrease.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.Helpers.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.Mvc.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.Optimization.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.Razor.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.WebPages.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.WebPages.Deployment.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.WebPages.Razor.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Newtonsoft.Json.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Antlr3.Runtime.pdb
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Net.Http.Formatting.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.Http.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.Http.WebHost.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\EntityFramework.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\EntityFramework.SqlServer.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.Core.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Security.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Security.Facebook.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Security.Cookies.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Security.Google.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Security.Twitter.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Security.OAuth.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\obj\Debug\RemoteSignatureApp.csproj.CopyComplete
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\obj\Debug\RemoteSignatureApp.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\obj\Debug\RemoteSignatureApp.pdb
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\log4net.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\log4net.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\RestSharp.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\RestSharp.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\BouncyCastle.Crypto.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Common.Logging.Core.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Common.Logging.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.barcodes.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.forms.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.io.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.kernel.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.layout.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.licensekey.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.pdfa.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.sign.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.styledxmlparser.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.svg.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\BouncyCastle.Crypto.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Common.Logging.pdb
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Common.Logging.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Common.Logging.Core.pdb
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Common.Logging.Core.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.barcodes.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.forms.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.io.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.kernel.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.layout.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.licensekey.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.pdfa.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.sign.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.styledxmlparser.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.svg.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\obj\Debug\RemoteSignatureApp.csprojAssemblyReference.cache
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\RemoteSignatureApp.dll.config
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\RemoteSignatureApp.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\RemoteSignatureApp.pdb
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\csc.exe
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\csc.exe.config
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\csc.rsp
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\csi.exe
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\csi.exe.config
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\csi.rsp
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\Microsoft.Managed.Core.targets
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\System.AppContext.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\System.Collections.Immutable.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\System.Console.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\System.IO.Compression.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\System.IO.FileSystem.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\System.IO.Pipes.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\System.Reflection.Metadata.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\System.Security.AccessControl.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\System.Security.Claims.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\System.Security.Principal.Windows.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\System.ValueTuple.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\System.Xml.XmlDocument.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\System.Xml.XPath.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\vbc.exe
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\vbc.exe.config
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\vbc.rsp
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\VBCSCompiler.exe
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\roslyn\VBCSCompiler.exe.config
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Antlr3.Runtime.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\BouncyCastle.Crypto.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Common.Logging.Core.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Common.Logging.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\EntityFramework.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\EntityFramework.SqlServer.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\itext.barcodes.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\itext.forms.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\itext.io.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\itext.kernel.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\itext.layout.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\itext.licensekey.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\itext.pdfa.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\itext.sign.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\itext.styledxmlparser.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\itext.svg.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\log4net.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.Core.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Microsoft.Owin.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Microsoft.Owin.Security.Cookies.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Microsoft.Owin.Security.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Microsoft.Owin.Security.Facebook.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Microsoft.Owin.Security.Google.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Microsoft.Owin.Security.OAuth.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Microsoft.Owin.Security.Twitter.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Microsoft.Web.Infrastructure.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Newtonsoft.Json.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Owin.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\RestSharp.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\System.Net.Http.Formatting.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\System.Web.Helpers.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\System.Web.Http.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\System.Web.Http.WebHost.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\System.Web.Mvc.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\System.Web.Optimization.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\System.Web.Razor.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\System.Web.WebPages.Deployment.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\System.Web.WebPages.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\System.Web.WebPages.Razor.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\WebGrease.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\BouncyCastle.Crypto.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Common.Logging.pdb
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Common.Logging.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Common.Logging.Core.pdb
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Common.Logging.Core.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\itext.barcodes.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\itext.forms.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\itext.io.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\itext.kernel.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\itext.layout.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\itext.licensekey.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\itext.pdfa.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\itext.sign.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\itext.styledxmlparser.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\itext.svg.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\log4net.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\RestSharp.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\System.Web.Helpers.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\System.Web.Mvc.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\System.Web.Optimization.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\System.Web.Razor.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\System.Web.WebPages.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\System.Web.WebPages.Deployment.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\System.Web.WebPages.Razor.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Newtonsoft.Json.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Antlr3.Runtime.pdb
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\System.Net.Http.Formatting.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\System.Web.Http.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\System.Web.Http.WebHost.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\EntityFramework.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\EntityFramework.SqlServer.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.Core.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Microsoft.Owin.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Microsoft.Owin.Security.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Microsoft.Owin.Security.Facebook.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Microsoft.Owin.Security.Cookies.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Microsoft.Owin.Security.Google.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Microsoft.Owin.Security.Twitter.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Microsoft.Owin.Security.OAuth.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\obj\Debug\RemoteSignatureApp.csproj.CopyComplete
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\obj\Debug\RemoteSignatureApp.dll
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\obj\Debug\RemoteSignatureApp.pdb
+E:\VS\RemoteSignature HTTPS\RemoteSignatureApp\obj\Debug\RemoteSignatureApp.csprojAssemblyReference.cache
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\RemoteSignatureApp.dll.config
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\RemoteSignatureApp.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\RemoteSignatureApp.pdb
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\csc.exe
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\csc.exe.config
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\csc.rsp
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\csi.exe
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\csi.exe.config
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\csi.rsp
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\System.AppContext.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\System.Collections.Immutable.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\System.Console.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\System.IO.Compression.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\System.IO.FileSystem.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\System.IO.Pipes.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\System.Reflection.Metadata.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\System.Security.AccessControl.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\System.Security.Claims.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\System.ValueTuple.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\System.Xml.XPath.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\vbc.exe
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\vbc.exe.config
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\vbc.rsp
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\VBCSCompiler.exe
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\roslyn\VBCSCompiler.exe.config
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Antlr3.Runtime.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\BouncyCastle.Crypto.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Common.Logging.Core.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Common.Logging.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\EntityFramework.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\EntityFramework.SqlServer.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\itext.barcodes.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\itext.forms.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\itext.io.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\itext.kernel.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\itext.layout.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\itext.licensekey.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\itext.pdfa.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\itext.sign.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\itext.styledxmlparser.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\itext.svg.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\log4net.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Microsoft.Owin.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Microsoft.Owin.Security.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Microsoft.Owin.Security.Google.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Microsoft.Web.Infrastructure.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Newtonsoft.Json.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Owin.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\RestSharp.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\System.Net.Http.Formatting.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\System.Web.Helpers.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\System.Web.Http.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\System.Web.Http.WebHost.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\System.Web.Mvc.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\System.Web.Optimization.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\System.Web.Razor.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\System.Web.WebPages.Deployment.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\System.Web.WebPages.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\System.Web.WebPages.Razor.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\WebGrease.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\BouncyCastle.Crypto.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Common.Logging.pdb
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Common.Logging.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Common.Logging.Core.pdb
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Common.Logging.Core.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\itext.barcodes.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\itext.forms.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\itext.io.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\itext.kernel.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\itext.layout.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\itext.licensekey.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\itext.pdfa.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\itext.sign.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\itext.styledxmlparser.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\itext.svg.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\log4net.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\RestSharp.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\System.Web.Helpers.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\System.Web.Mvc.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\System.Web.Optimization.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\System.Web.Razor.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\System.Web.WebPages.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\System.Web.WebPages.Deployment.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\System.Web.WebPages.Razor.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Newtonsoft.Json.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Antlr3.Runtime.pdb
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\System.Net.Http.Formatting.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\System.Web.Http.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\System.Web.Http.WebHost.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\EntityFramework.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\EntityFramework.SqlServer.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Microsoft.Owin.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Microsoft.Owin.Security.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Microsoft.Owin.Security.Google.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\obj\Debug\RemoteSignatureApp.csproj.CopyComplete
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\obj\Debug\RemoteSignatureApp.dll
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\obj\Debug\RemoteSignatureApp.pdb
+E:\Master STI\DISERTATIE\Disertatie - RUICA CRISTINA\Proiect\RemoteSignature iText7\RemoteSignatureApp\obj\Debug\RemoteSignatureApp.csprojAssemblyReference.cache

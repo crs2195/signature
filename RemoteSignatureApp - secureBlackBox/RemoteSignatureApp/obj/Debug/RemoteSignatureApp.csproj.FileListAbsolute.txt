@@ -1,0 +1,373 @@
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\RemoteSignatureApp.dll.config
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\RemoteSignatureApp.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\RemoteSignatureApp.pdb
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\csc.exe
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\csc.exe.config
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\csc.rsp
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\csi.exe
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\csi.exe.config
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\csi.rsp
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\Microsoft.Managed.Core.targets
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.AppContext.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Collections.Immutable.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Console.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.IO.Compression.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.IO.FileSystem.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.IO.Pipes.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Reflection.Metadata.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Security.AccessControl.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Security.Claims.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Security.Principal.Windows.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.ValueTuple.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Xml.XmlDocument.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Xml.XPath.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\vbc.exe
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\vbc.exe.config
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\vbc.rsp
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\VBCSCompiler.exe
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\roslyn\VBCSCompiler.exe.config
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Antlr3.Runtime.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\EntityFramework.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\EntityFramework.SqlServer.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.Core.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Security.Cookies.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Security.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Security.Facebook.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Security.Google.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Security.OAuth.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Security.Twitter.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Web.Infrastructure.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Newtonsoft.Json.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Owin.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Net.Http.Formatting.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.Helpers.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.Http.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.Http.WebHost.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.Mvc.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.Optimization.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.Razor.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.WebPages.Deployment.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.WebPages.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.WebPages.Razor.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\WebGrease.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.Helpers.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.Mvc.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.Optimization.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.Razor.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.WebPages.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.WebPages.Deployment.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.WebPages.Razor.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Newtonsoft.Json.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Antlr3.Runtime.pdb
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Net.Http.Formatting.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.Http.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\System.Web.Http.WebHost.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\EntityFramework.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\EntityFramework.SqlServer.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.Core.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Security.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Security.Facebook.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Security.Cookies.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Security.Google.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Security.Twitter.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.Owin.Security.OAuth.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\obj\Debug\RemoteSignatureApp.csproj.CopyComplete
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\obj\Debug\RemoteSignatureApp.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\obj\Debug\RemoteSignatureApp.pdb
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\log4net.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\log4net.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\RestSharp.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\RestSharp.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\BouncyCastle.Crypto.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Common.Logging.Core.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Common.Logging.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.barcodes.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.forms.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.io.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.kernel.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.layout.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.licensekey.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.pdfa.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.sign.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.styledxmlparser.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.svg.dll
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\BouncyCastle.Crypto.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Common.Logging.pdb
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Common.Logging.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Common.Logging.Core.pdb
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\Common.Logging.Core.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.barcodes.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.forms.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.io.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.kernel.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.layout.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.licensekey.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.pdfa.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.sign.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.styledxmlparser.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\bin\itext.svg.xml
+E:\VS\RemoteSignatureApp\RemoteSignatureApp\obj\Debug\RemoteSignatureApp.csprojAssemblyReference.cache
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\RemoteSignatureApp.dll.config
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\RemoteSignatureApp.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\RemoteSignatureApp.pdb
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\csc.exe
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\csc.exe.config
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\csc.rsp
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\csi.exe
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\csi.exe.config
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\csi.rsp
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\Microsoft.Managed.Core.targets
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\System.AppContext.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\System.Collections.Immutable.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\System.Console.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\System.IO.Compression.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\System.IO.FileSystem.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\System.IO.Pipes.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\System.Reflection.Metadata.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\System.Security.AccessControl.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\System.Security.Claims.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\System.Security.Principal.Windows.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\System.ValueTuple.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\System.Xml.XmlDocument.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\System.Xml.XPath.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\vbc.exe
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\vbc.exe.config
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\vbc.rsp
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\VBCSCompiler.exe
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\roslyn\VBCSCompiler.exe.config
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Antlr3.Runtime.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\BouncyCastle.Crypto.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Common.Logging.Core.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Common.Logging.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\EntityFramework.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\EntityFramework.SqlServer.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\itext.barcodes.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\itext.forms.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\itext.io.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\itext.kernel.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\itext.layout.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\itext.licensekey.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\itext.pdfa.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\itext.sign.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\itext.styledxmlparser.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\itext.svg.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\log4net.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.Core.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Microsoft.Owin.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Microsoft.Owin.Security.Cookies.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Microsoft.Owin.Security.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Microsoft.Owin.Security.Facebook.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Microsoft.Owin.Security.Google.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Microsoft.Owin.Security.OAuth.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Microsoft.Owin.Security.Twitter.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Microsoft.Web.Infrastructure.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Newtonsoft.Json.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Owin.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\RestSharp.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.ASiC.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.ASiC.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.Cloud.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.Cloud.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.DAVClient.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.DAVClient.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.DAVCommon.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.DAVCommon.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.DAVIISServer.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.DAVServer.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.DAVServer.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.DC.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.DC.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.DCPKI.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.DCPKI.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.FTPS.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.FTPS.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.FTPSServer.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.FTPSServer.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.HTTP.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.HTTP.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.HTTPCommon.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.HTTPCommon.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.HTTPServer.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.HTTPServer.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.LDAP.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.LDAP.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.Mail.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.Mail.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.MIME.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.MIME.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.Office.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.Office.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.PDF.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.PDF.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.PGP.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.PGP.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.PGPLDAP.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.PGPLDAP.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.PGPMIME.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.PGPMIME.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.PGPSSH.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.PGPSSH.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.PGPTLS.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.PGPTLS.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.PKI.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.PKI.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.PKIPDF.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.PKIPDF.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.PKISMIME.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.PKISSH.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.PKISSH.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.SAMLCommon.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.SAMLCommon.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.SAMLIDP.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.SAMLIDP.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.SAMLSP.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.SAMLSP.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.SFTP.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.SFTP.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.SFTPCommon.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.SFTPCommon.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.SFTPServer.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.SFTPServer.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.SMIME.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.SMIME.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.SOAPClient.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.SOAPClient.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.SolFS.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.SSHClient.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.SSHClient.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.SSHCommon.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.SSHCommon.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.SSHServer.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.SSHServer.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.SSLClient.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.SSLClient.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.SSLCommon.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.SSLCommon.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.SSLServer.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.SSLServer.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.XML.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.XML.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.XMLSecurity.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.XMLSecurity.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.ZIP.Async.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\SecureBlackbox.ZIP.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\System.Net.Http.Formatting.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\System.Web.Helpers.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\System.Web.Http.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\System.Web.Http.WebHost.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\System.Web.Mvc.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\System.Web.Optimization.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\System.Web.Razor.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\System.Web.WebPages.Deployment.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\System.Web.WebPages.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\System.Web.WebPages.Razor.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\WebGrease.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\BouncyCastle.Crypto.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Common.Logging.pdb
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Common.Logging.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Common.Logging.Core.pdb
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Common.Logging.Core.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\itext.barcodes.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\itext.forms.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\itext.io.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\itext.kernel.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\itext.layout.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\itext.licensekey.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\itext.pdfa.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\itext.sign.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\itext.styledxmlparser.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\itext.svg.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\log4net.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\RestSharp.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\System.Web.Helpers.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\System.Web.Mvc.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\System.Web.Optimization.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\System.Web.Razor.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\System.Web.WebPages.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\System.Web.WebPages.Deployment.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\System.Web.WebPages.Razor.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Newtonsoft.Json.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Antlr3.Runtime.pdb
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\System.Net.Http.Formatting.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\System.Web.Http.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\System.Web.Http.WebHost.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\EntityFramework.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\EntityFramework.SqlServer.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.Core.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Microsoft.Owin.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Microsoft.Owin.Security.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Microsoft.Owin.Security.Facebook.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Microsoft.Owin.Security.Cookies.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Microsoft.Owin.Security.Google.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Microsoft.Owin.Security.Twitter.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Microsoft.Owin.Security.OAuth.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\obj\Debug\RemoteSignatureApp.csprojAssemblyReference.cache
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\obj\Debug\RemoteSignatureApp.csproj.CopyComplete
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\obj\Debug\RemoteSignatureApp.dll
+E:\VS\RemoteSignatureApp - secureBlackBox\RemoteSignatureApp\obj\Debug\RemoteSignatureApp.pdb
