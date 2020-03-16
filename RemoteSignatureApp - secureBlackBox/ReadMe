@@ -1,0 +1,8 @@
+SecureBlackbox is an open source library which allows basic operations on PDF documents (metadata extraction, content extraction, creation, writing), and includes components 
+and functions used to ensure the security of PDF documents (allows operations for signing, encryption, decryption). SecureBlackBox defines specialized classes for each component
+used for signing.
+To interact with the PDF documents, the SDK provides the TelPDFDocument class. The first step after the document is loaded is to add the signature and its properties through a
+TElPDFSignature object. A TElPDFAdvancedPublicKeySecurityHandler security handler must be assigned to the signature, allowing the signing and validation of PAdES signatures.
+The handler allows setting different properties, such as the type of signature, the way in which the validation of the certificates will be done (Adobe.PPKLITE - determines the Adobe
+tools to look for the internal certificate, and Adobe.PPKMS - in the storage of the Windows certificates), the certificate chain as TElX509Certificate objects, a time stamp client etc. 
+To delegate the signing operation to an external source, a property of the handler specifying whether the signingwill be done remotely is set to true and a handler will be assigned to the OnRemoteSign event, namely OnRemoteSign method, which takes in the hash of the document, computes the corresponding signature by calling the remote digital signature  web service exposed by the TSP and returns it. The method is automatically called when saving and closing the document.
